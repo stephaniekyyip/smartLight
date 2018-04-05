@@ -13,4 +13,4 @@ My contribution to the project was mainly on the software side, which included w
 - PHP script takes in the user input via HTTP and runs the appropriate Python script:
   - Turn LED on/ off: The "on" setting is the brightest LED setting. The "off" setting kills the currently running Python script.
   - Adjust brightness: Change the duty cycle of the Pulse Width Modulation (PWM) output (increase duty cycle to increase the brightness)
-  - Auto brightness mode: Reads input from photoresistor to determine amount of ambient light. Increase the brightness when it is dark in the room and vice versa. 
+  - Auto brightness mode: Read input from photoresistor to determine amount of ambient light. Then increase the brightness when it is dark in the room and vice versa. 
