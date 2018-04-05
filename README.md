@@ -2,7 +2,7 @@
 
 For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. 
 
-My contribution to the project was mainly on the software side, which included writing Python scripts to turn on/ off the LED and adjust the LED brightness and writing PHP code to retrieve the user's LED control responses from a webpage.
+My contribution to the project was mainly on the software side, which included writing Python scripts to turn on/ off the LED and to adjust the LED brightness and writing PHP code to retrieve the user's LED control responses from a webpage.
 
 ### How the Smart Light Works
 The LED bulb, along with a photoresistor and a transistor, was connected to a Raspberry Pi. The photoresistor was used to determine the ambient brightness of the room in order to adjust the LED brightness accordingly. The transistor was used as a relay with the battery pack in order to adjust the LED brightness using the Pulse Width Modulation (PWM) output from the Raspberry Pi. 
