@@ -4,13 +4,35 @@ For the final project in my Internet of Things course, I worked in a team to cre
 
 My contribution to the project was mainly on the software side, which included writing Python scripts to turn on/ off the LED and adjust the LED brightness and writing PHP code to retrieve the user's LED control responses from a webpage.
 
+### How the Smart Light Works
+The LED bulb, along with a photoresistor and a transistor, was connected to a Raspberry Pi. The photoresistor was used to determine the ambient brightness of the room in order to adjust the LED brightness accordingly. The transistor was used as a relay with the battery pack in order to adjust the LED brightness using the Pulse Width Modulation (PWM) output from the Raspberry Pi. 
+
 ### Smart Light Operation
 - User uses their device to connect to the Raspberry Pi via its IP address
-- On the webpage, there is a HTML form that allows user to select among the following options:
+- On the webpage, there is a HTML form that allows the user to select among the following options:
   - Turn the LED on or off
   - Choose among three brightness settings for the LED
   - Enable or disable auto brightness mode, in which the LED brightness is automatically determined by the ambient brightness in the room
 - PHP script takes in the user input via HTTP and runs the appropriate Python script:
   - Turn LED on/ off: The "on" setting is the brightest LED setting. The "off" setting kills the currently running Python script.
-  - Adjust brightness: Change the duty cycle of the Pulse Width Modulation (PWM) output (increase duty cycle to increase the brightness)
+  - Adjust brightness: Change the duty cycle of the PWM output (increase duty cycle to increase the brightness)
   - Auto brightness mode: Read input from photoresistor to determine amount of ambient light. Then increase the brightness when it is dark in the room and vice versa. 
+
+### Hardware Components
+- Raspberry Pi 3
+- Photoresistor
+- LED Bulb (12 V)
+- 12V Battery Pack
+- Transistor (12V MOSFET)
+- 300Ω Resistor (Used with the transistor)
+- 1µF Capacitor (Used as an analog to digital converter between the photoresistor and the Raspberry Pi)
+
+### References
+- [Apache and PHP for the Raspberry PI](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
+- [Using a capacitor with a photoresistor and the Raspberry Pi](https://pimylifeup.com/raspberry-pi-light-sensor/)
+  - [Another photoresistor resource](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
+- [PWM LED dimming on the Raspberry Pi](http://raspi.tv/2013/how-to-use-soft-pwm-in-rpi-gpio-pt-2-led-dimming-and-motor-speed-control)
+- [PHP on the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
+  - [Another PHP resource](http://www.pp4s.co.uk/main/gs-pi-remote.html)
+  
+  #### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/projects).
