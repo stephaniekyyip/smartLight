@@ -7,6 +7,8 @@ My contribution to the project was mainly on the software side. I wrote Python s
 ### How the Smart Light Works
 The LED bulb, along with a photoresistor and a transistor, was connected to a Raspberry Pi. The photoresistor was used to determine the ambient brightness of the room in order to adjust the LED brightness accordingly. The transistor was used as a relay with the battery pack in order to adjust the LED brightness using the Pulse Width Modulation (PWM) output from the Raspberry Pi. 
 
+The design of the smart light includes a lamp modified to hold the 12V LED bulb that plugs into the box that holds the Raspberry Pi and breadboard circuits. 
+
 ### Smart Light Operation
 - User uses their device to connect to the Raspberry Pi via its IP address
 - On the webpage, there is a HTML form that allows the user to select among the following options:
