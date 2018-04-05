@@ -29,10 +29,10 @@ The LED bulb, along with a photoresistor and a transistor, was connected to a Ra
 
 ### References
 - [Web interface for the Raspberry Pi to control LEDs](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
-- [Using a capacitor with a photoresistor and the Raspberry Pi](https://pimylifeup.com/raspberry-pi-light-sensor/)
+- [Using a capacitor to read photoresistor output for the Raspberry Pi](https://pimylifeup.com/raspberry-pi-light-sensor/)
   - [Another photoresistor resource](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 - [PWM LED dimming on the Raspberry Pi](http://raspi.tv/2013/how-to-use-soft-pwm-in-rpi-gpio-pt-2-led-dimming-and-motor-speed-control)
-- [PHP on the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
+- [PHP for the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
   - [Another PHP resource](http://www.pp4s.co.uk/main/gs-pi-remote.html)
   
 #### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/projects).
