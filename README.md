@@ -28,7 +28,7 @@ The LED bulb, along with a photoresistor and a transistor, was connected to a Ra
 - 1µF Capacitor (Used as an analog to digital converter between the photoresistor and the Raspberry Pi)
 
 ### References
-- [Apache and PHP for the Raspberry PI](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
+- [Web interface for the Raspberry Pi to control LEDs](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
 - [Using a capacitor with a photoresistor and the Raspberry Pi](https://pimylifeup.com/raspberry-pi-light-sensor/)
   - [Another photoresistor resource](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 - [PWM LED dimming on the Raspberry Pi](http://raspi.tv/2013/how-to-use-soft-pwm-in-rpi-gpio-pt-2-led-dimming-and-motor-speed-control)
