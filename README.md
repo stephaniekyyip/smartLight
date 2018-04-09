@@ -1,17 +1,21 @@
 # Smart Light System
 
-<img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightSetup.jpg?raw=true" height = 500px></img>
+<img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightSetup.jpg?raw=true" height = 300px></img>
 
 For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. 
 
 My contribution to the project was mainly on the software side. I wrote Python scripts to turn on and off the LED and to adjust the LED brightness. I also wrote PHP scripts to execute the appropriate Python script depending on the user's response to the LED control options.
 
 ### Hardware Design
+
+<img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightElectronics.jpg?raw=true" height = 300px></img>
+
 The LED bulb, along with a photoresistor, was connected to a Raspberry Pi. The photoresistor was used to determine the ambient brightness of the room in order to adjust the LED brightness accordingly. Additionally, a transistor was used with the LED's battery pack as a relay in order to adjust the LED brightness using the Pulse Width Modulation (PWM) output from the Raspberry Pi. 
 
 The design of the smart light includes a lamp modified to hold the 12V LED bulb that plugs into the box that holds the Raspberry Pi and breadboard circuits. 
 
 ### Software Design
+<img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightGUI.png?raw=true" height = 300px></img>
 - User uses their device to connect to the Raspberry Pi via its IP address
 - On the webpage, there is a HTML form that allows the user to select among the following options:
   - Turn the LED on or off
