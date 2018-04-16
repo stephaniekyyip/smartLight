@@ -2,8 +2,6 @@
 #
 #   Manual brightness setting #1.
 #   Changes LED duty cycle to 5%.
-#
-#
 
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
