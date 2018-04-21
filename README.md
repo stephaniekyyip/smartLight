@@ -2,9 +2,7 @@
 
 <img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightSetup.jpg?raw=true" width = 500px></img>
 
-For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. 
-
-My contribution to the project was mainly on the software side. I wrote Python scripts to turn on and off the LED and to adjust the LED brightness. I also wrote PHP scripts to execute the appropriate Python script depending on the user's response to the LED control options.
+For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. My contribution to the project was mainly on the software side. 
 
 ## Hardware Design
 
