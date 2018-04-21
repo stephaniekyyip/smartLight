@@ -23,9 +23,9 @@ I used an Apache web server on the Raspberry Pi, HTML for the user interface, PH
   - Choose among four brightness settings for the LED
   - Turn the LED off
   - Enable or disable auto brightness mode, in which the LED brightness is automatically determined by the ambient brightness in the room
-- PHP script takes in the user input via HTTP and runs the appropriate Python script:
-  - Turn LED on/ off: The "on" setting is the brightest LED setting. The "off" setting kills the currently running Python script.
+- Then, the PHP script takes in the user response via HTTP and runs the appropriate Python script:
   - Adjust brightness: Change the duty cycle of the PWM output (increase duty cycle to increase the brightness)
+  - Turn LED off: Kills the currently running Python script and sets the GPIO to the LED to 0 for "off".
   - Auto brightness mode: Read input from photoresistor to determine amount of ambient light. Then increase the brightness when it is dark in the room and vice versa. 
 
 ## Hardware Components
