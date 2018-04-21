@@ -17,7 +17,7 @@ The design of the smart light includes a lamp modified to hold the 12V LED bulb 
 
 I used an Apache web server on the Raspberry Pi, HTML for the user interface, PHP to handle the HTML form input and call the appropriate Python scripts, and Python to control the LED (turn on/off, adjust brightness). 
 
-### How the Smart Light Works
+## How the Smart Light Works
 - User uses their device to connect to the Raspberry Pi via its IP address
 - On the webpage, there is a HTML form that allows the user to select among the following options:
   - Turn the LED on or off
