@@ -20,8 +20,8 @@ I used an Apache web server on the Raspberry Pi, HTML for the user interface, PH
 ## How the Smart Light Works
 - User uses their device to connect to the Raspberry Pi via its IP address
 - On the webpage, there is a HTML form that allows the user to select among the following options:
-  - Turn the LED on or off
   - Choose among four brightness settings for the LED
+  - Turn the LED off
   - Enable or disable auto brightness mode, in which the LED brightness is automatically determined by the ambient brightness in the room
 - PHP script takes in the user input via HTTP and runs the appropriate Python script:
   - Turn LED on/ off: The "on" setting is the brightest LED setting. The "off" setting kills the currently running Python script.
