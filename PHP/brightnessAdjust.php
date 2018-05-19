@@ -3,7 +3,7 @@
 
   Controls the manual brightness settings.
   Runs the specified "brightnessAdjust#.py" script, where # corresponds to the
-  numbered brightnes setting chosen by the user.
+  numbered brightness setting chosen by the user.
 
 */
 
