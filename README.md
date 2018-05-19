@@ -42,7 +42,7 @@ I used an Apache web server on the Raspberry Pi, HTML for the user interface, PH
 - 1µF Capacitor (Used as an analog to digital converter between the photoresistor and the Raspberry Pi)
 
 ## Issues
-I have included the code used in this project "as is", meaning that it is a fairly hacked together solution that allowed our project to work in time for our final class presentation. I understand that I have redundant code and other software design issues. At the time, I had a very limited understanding of Python and PHP and thus, relied heavily on exsample code and other web resources (linked below) in order to get the smart light working. 
+I have included the code used in this project "as is", meaning that it is a fairly hacked together solution that allowed our project to work in time for our final class presentation. I understand that I have redundant code and other software design issues. At the time, I had a very limited understanding of Python and PHP and thus, relied heavily on example code and other web resources (linked below) in order to get the smart light working. 
 
 ## References
 - [Web interface for the Raspberry Pi to control LEDs](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
