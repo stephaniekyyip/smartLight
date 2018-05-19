@@ -2,7 +2,7 @@
 
 <img src = "https://github.com/stephaniekyyip/stephaniekyyip.github.io/blob/master/img/projects/smartLight/smartLightSetup.jpg?raw=true" width = 500px></img>
 
-For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. My contribution to the project was mainly on the software side. 
+For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. I contributed to the software side of the project. 
 
 ## Hardware Design
 
@@ -28,6 +28,10 @@ I used an Apache web server on the Raspberry Pi, HTML for the user interface, PH
   - Turn LED off: Kills the currently running Python script and sets the GPIO to the LED to 0 for "off".
   - Auto brightness mode: Read input from photoresistor to determine amount of ambient light. Then increase the brightness when it is dark in the room and vice versa. 
 
+## Software Dependencies
+- Wiring Pi library: <code>git clone git://git.drogon.net/wiringPi</code>
+- Apache server + PHP5 extension: <code>install apache2 php5 libapache2-mod-php5</code>
+
 ## Hardware Components
 - Raspberry Pi 3
 - Photoresistor
@@ -36,6 +40,9 @@ I used an Apache web server on the Raspberry Pi, HTML for the user interface, PH
 - Transistor (12V MOSFET)
 - 300Ω Resistor (Used with the transistor)
 - 1µF Capacitor (Used as an analog to digital converter between the photoresistor and the Raspberry Pi)
+
+## Issues
+I have included the code used in this project "as is", meaning that it is a fairly hacked together solution that allowed our project to work in time for our final class presentation. I understand that I have redundant code and other software design issues. At the time, I had a very limited understanding of Python and PHP and thus, relied heavily on sample code and other web resources (linked below) in order to get the smart light working. 
 
 ## References
 - [Web interface for the Raspberry Pi to control LEDs](http://www.instructables.com/id/Simple-and-intuitive-web-interface-for-your-Raspbe/?ALLSTEPS)
