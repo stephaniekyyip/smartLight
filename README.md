@@ -52,4 +52,4 @@ I have included the code used in this project "as is", meaning that it is a fair
 - [PHP for the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
   - [Another PHP resource](http://www.pp4s.co.uk/main/gs-pi-remote.html)
   
-#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/projects.html#smartLightProj).
+#### For a more details on this project, please visit my website [here](http://stephaniekyyip.github.io/smartLight.html).
