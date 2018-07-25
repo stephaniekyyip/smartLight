@@ -2,6 +2,7 @@
 
 <img src = "https://github.com/stephaniekyyip/smartLight/blob/master/smartLightSetup.jpg?raw=true" width = 600px></img>
 
+## Overview
 For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. I contributed to the software side of the project. 
 
 ## Hardware Design
@@ -14,18 +15,16 @@ The design of the smart light includes a lamp modified to hold the 12V LED bulb.
 ## Software Design
 <img src = "https://github.com/stephaniekyyip/smartLight/blob/master/smartLightGUI.png?raw=true" width= 600px></img>
 
-I used an Apache web server on the Raspberry Pi, PHP to handle the HTML form input and call the appropriate Python scripts, and Python to control the LED (turn on/off, adjust brightness). 
+I used an Apache web server on the Raspberry Pi, PHP to handle the HTML form input and to call the appropriate Python scripts, and Python to control the LED (turn on/off, adjust brightness). 
 
 ## How the Smart Light Works
 - User uses their device to connect to the Raspberry Pi via its IP address
 - On the webpage, there is a HTML form that allows the user to select among the following options:
-  - Choose among four brightness settings for the LED
-  - Turn the LED off
+  - Choose among four brightness settings for the LED or turn the LED off (Manual Brightness Control)
   - Enable or disable auto brightness mode, in which the LED brightness is automatically determined by the ambient brightness in the room
-- Then, the PHP script takes in the user response via HTTP and runs the appropriate Python script:
-  - Adjust brightness: Change the duty cycle of the PWM output (increase duty cycle to increase the brightness)
-  - Turn LED off: Kills the currently running Python script and sets the GPIO to the LED to 0 for "off".
-  - Auto brightness mode: Read input from photoresistor to determine amount of ambient light. Then increase the brightness when it is dark in the room and vice versa. 
+- Upon user input, the PHP script runs the appropriate Python script to do one of the following:
+  - Manual Brightness Control: Changes the duty cycle of the PWM output to adjust LED brightness.
+  - Auto Brightness Mode: Reads input from photoresistor to determine amount of ambient light. Then, increases the LED brightness if it is dark in the room and vice versa.
 
 ## Software Dependencies
 - Wiring Pi library: <code>git clone git://git.drogon.net/wiringPi</code>
@@ -51,4 +50,4 @@ I have included the code used in this project "as is", meaning that it is a quic
 - [PHP for the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
   - [Another PHP resource](http://www.pp4s.co.uk/main/gs-pi-remote.html)
   
-#### For more details on this project, visit my website [here](http://stephaniekyyip.github.io/smartLight.html).
+#### For more details on this project, visit my website [here](https://stephaniekyyip.github.io/projects/smartLight).
