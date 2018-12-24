@@ -3,7 +3,7 @@
 <img src = "https://github.com/stephaniekyyip/smartLight/blob/master/smartLightSetup.jpg?raw=true" width = 600px></img>
 
 ## Overview
-For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb. I contributed to the software side of the project. 
+For the final project in my Internet of Things course, I worked in a team to create a smart light system that allows the user to remotely control a LED bulb using a Raspberry Pi. I contributed to the software side of the project. 
 
 ## Hardware Design
 <img src = "https://github.com/stephaniekyyip/smartLight/blob/master/smartLightElectronics.jpg?raw=true" width= 600px></img>
@@ -39,7 +39,7 @@ I used an Apache web server on the Raspberry Pi, PHP to handle the HTML form inp
 - 300Ω Resistor (Used with the transistor)
 - 1µF Capacitor (Used as an analog to digital converter between the photoresistor and the Raspberry Pi)
 
-## Issues
+## Disclaimer
 I have included the code used in this project "as is", meaning that it is a quickly hacked together solution that allowed our project to work in time for our final class presentation. Despite this not being an elegant solution, I enjoyed bringing together both the hardware and software aspects of this project and creating a working prototype.
 
 ## References
@@ -50,4 +50,4 @@ I have included the code used in this project "as is", meaning that it is a quic
 - [PHP for the Raspberry Pi](http://www.raspberry-pi-geek.com/Archive/2014/07/PHP-on-Raspberry-Pi)
   - [Another PHP resource](http://www.pp4s.co.uk/main/gs-pi-remote.html)
   
-#### For more details on this project, visit my website [here](https://stephaniekyyip.github.io/projects/smartLight).
+#### For more details on this project, visit my website [here](https://stephaniekyyip.com/projects/smartLight).
